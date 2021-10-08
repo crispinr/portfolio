@@ -10,6 +10,6 @@ $theme-colors: (
 html,
 body {
   background-color: map.get($theme-colors, "bg");
-  font-family: "Poppins";
+  font-family: "Poppins-Light";
   color: map.get($theme-colors, "txt");
 }
