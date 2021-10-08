@@ -1,22 +1,17 @@
-import './style.scss';
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import './assets/scss/style.scss';
+import home from "./pages/home";
+import error from "./pages/404";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path="/" component={home} />
+          <Route exact path="/404" component={error} />
+          <Redirect to="/404" />
+        </Switch>
+      </Router>
   );
 }
 
