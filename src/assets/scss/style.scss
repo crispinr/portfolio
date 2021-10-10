@@ -3,10 +3,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "../fonts/fonts.scss";
 @import "./error.scss";
+@import "./loader.scss";
 
 $theme-colors: (
   "bg": #0b0c10,
-  "txt": #66fcf1,
+  "txt": #36d7b7,
 );
 
 html,
