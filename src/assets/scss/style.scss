@@ -1,6 +1,8 @@
 @use "sass:map";
 
+@import "~bootstrap/scss/bootstrap";
 @import "../fonts/fonts.scss";
+@import "./error.scss";
 
 $theme-colors: (
   "bg": #0b0c10,
@@ -9,7 +11,17 @@ $theme-colors: (
 
 html,
 body {
-  background-color: map.get($theme-colors, "bg");
+  background: map.get($theme-colors, "bg");
   font-family: "Poppins-Light";
+  color: map.get($theme-colors, "txt");
+  background-size: cover;
+  height: 100%;
+}
+
+.txt-cyan {
+  color: map.get($theme-colors, "txt");
+}
+
+.txt-hover:hover {
   color: map.get($theme-colors, "txt");
 }
