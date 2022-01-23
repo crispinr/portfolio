@@ -30,3 +30,12 @@ body {
 .txt-hover:hover {
   color: map.get($theme-colors, "txt");
 }
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
