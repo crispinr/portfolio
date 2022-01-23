@@ -7,12 +7,16 @@
 
 $theme-colors: (
   "bg": #0b0c10,
-  "txt": #36d7b7,
+  "txt": #1c1c1c,
 );
 
 html,
 body {
-  background: map.get($theme-colors, "bg");
+  background-color: map-get($theme-colors, "bg");
+  background-image: url("../images/Newspaper_Texture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Poppins-Light";
   color: map.get($theme-colors, "txt");
   background-size: cover;
