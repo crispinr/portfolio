@@ -3,9 +3,14 @@
 @import "../fonts/fonts.scss";
 @import "./error.scss";
 
+$bg: #121212;
+$hero-bg: #0f1724;
+$cyan-txt: #04c4c4;
+$white-txt: #ddebff;
+$lblue-txt: #92abcf;
+
 body {
-  background-color: black;
+  background-color: $bg;
   font-family: "Comfortaa";
-  color: white;
-  height: 100%;
+  color: $white-txt;
 }
