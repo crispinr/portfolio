@@ -14,3 +14,31 @@ body {
   font-family: "Comfortaa";
   color: $white-txt;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+a:hover {
+  color: inherit;
+}
+
+#hero {
+  background-color: $hero-bg;
+}
+
+.custom-nav {
+  background-color: $hero-bg;
+  height: 4rem;
+  border-radius: 0 0 2rem 2rem;
+  color: $cyan-txt;
+}
+
+.cyan-txt {
+  color: $cyan-txt;
+}
