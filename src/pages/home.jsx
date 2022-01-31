@@ -6,8 +6,8 @@ export default function home() {
     <>
       <NavBar />
       <section id="hero">
-        <div className="container d-flex flex-column justify-content-around align-items-center vh-100">
-          <div className="d-flex flex-column justify-content-center align-items-center h-50 w-100 mt-5">
+        <div className="container d-flex flex-column justify-content-evenly align-items-center vh-100">
+          <div className="d-flex flex-column justify-content-center align-items-center h-50 w-100">
             <h3 className="display-4">Hola, Universe!</h3>
             <h6 className="fs-3 mt-5 lblue-txt">
               “I am so clever that sometimes I don't understand a single word of
