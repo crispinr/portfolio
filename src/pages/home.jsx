@@ -10,6 +10,21 @@ import {
   SiInstagram,
   SiFacebook,
 } from "react-icons/si";
+import {
+  DiPython,
+  DiJsBadge,
+  DiHtml5,
+  DiCss3,
+  DiJava,
+  DiBootstrap,
+  DiGithubBadge,
+  DiGit,
+  DiHeroku,
+  DiNpm,
+  DiReact,
+} from "react-icons/di";
+
+import { SiAdobeillustrator, SiAdobexd } from "react-icons/si";
 
 export default function home() {
   return (
@@ -45,31 +60,49 @@ export default function home() {
       </section>
       <section className="container d-flex flex-column justify-content-center align-items-center">
         <h3 className="cyan-txt mt-5">Languages</h3>
-        <div className="mt-4">
-          <span></span>
+        <div className="mt-4 text-center">
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiPython color="" size="20px" /> Python
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiJsBadge color="" size="20px" /> JavaScript
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiHtml5 color="" size="20px" /> HTML5
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiCss3 color="" size="20px" /> CSS3
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiJava color="" size="20px" /> Java
+          </h6>
         </div>
         <h3 className="cyan-txt mt-5">Technologies</h3>
-        <div className="w-25 mt-4 d-flex justify-content-evenly align-items-center">
-          <img
-            src="https://img.shields.io/badge/-React-101B2C?&logo=React"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-React-101B2C?&logo=React"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-React-101B2C?&logo=React"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-React-101B2C?&logo=React"
-            alt="python"
-            className="img-shield"
-          />
+        <div className="mt-4 text-center">
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiBootstrap color="" size="20px" /> Bootstrap
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiGithubBadge color="" size="20px" /> Github
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiGit color="" size="20px" /> Git
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiHeroku color="" size="20px" /> Heroku
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <SiAdobeillustrator color="" size="20px" /> Illustrator
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiNpm color="" size="20px" /> npm
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <DiReact color="" size="20px" /> React
+          </h6>
+          <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
+            <SiAdobexd color="" size="20px" /> Xd
+          </h6>
         </div>
       </section>
       <section
