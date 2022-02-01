@@ -170,78 +170,114 @@ export default function home() {
             <div className=" d-flex flex-column justify-content-center align-items-center">
               <div className="card proj-card p-3">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <h5 class="card-title align-self-start">
+                  <h5 class="card-title align-self-start lblue-txt fw-bold">
                     pattarai-website-v2
                   </h5>
-                  <p class="card-text mt-4">
+                  <p class="card-text mt-3">
                     The official v2 website of PATTARAI - a tech community based
                     in Chennai.
                   </p>
-                  <div className="align-self-end">
+                  <div className="align-self-start">
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      reactjs
                     </span>
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      bootstrap
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      threejs
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      framer-motion
                     </span>
                   </div>
                 </div>
               </div>
               <div className="card proj-card p-3 mt-5">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <h5 class="card-title align-self-start">
-                    pattarai-website-v2
+                  <h5 class="card-title align-self-start lblue-txt fw-bold">
+                    project-helix
                   </h5>
-                  <p class="card-text mt-4">
-                    The official v2 website of PATTARAI - a tech community based
-                    in Chennai.
+                  <p class="card-text mt-3">
+                    A workshop hub platform with live interaction to enhance
+                    users learning experience.
                   </p>
-                  <div className="align-self-end">
+                  <div className="align-self-start">
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      reactjs
                     </span>
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      bootstrap
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      firebase
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      framer-motion
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      particlesjs
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      live-chat
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className=" d-flex flex-column justify-content-center align-items-center">
+            <div className="d-flex flex-column justify-content-center align-items-center">
               <div className="card proj-card p-3">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <h5 class="card-title align-self-start">
-                    pattarai-website-v2
+                  <h5 class="card-title align-self-start lblue-txt fw-bold">
+                    integratable-chat-app
                   </h5>
-                  <p class="card-text mt-4">
-                    The official v2 website of PATTARAI - a tech community based
-                    in Chennai.
+                  <p class="card-text mt-3">
+                    An integratable live chat widget based on socket.io,
+                    express.js and react.js.
                   </p>
-                  <div className="align-self-end">
+                  <div className="align-self-start">
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      reactjs
                     </span>
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      expressjs
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      socketio
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      firebase
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      widget
                     </span>
                   </div>
                 </div>
               </div>
               <div className="card proj-card p-3 mt-5">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <h5 class="card-title align-self-start">
-                    pattarai-website-v2
+                  <h5 class="card-title align-self-start lblue-txt fw-bold">
+                    mr-bot
                   </h5>
-                  <p class="card-text mt-4">
-                    The official v2 website of PATTARAI - a tech community based
-                    in Chennai.
+                  <p class="card-text mt-3">
+                    A whatsapp bot that'll fetch resourses from the internet and
+                    makes your life easier.
                   </p>
-                  <div className="align-self-end">
+                  <div className="align-self-start">
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      python
                     </span>
                     <span className="badge cyan-bg rounded-pill black-txt me-2">
-                      ReactJS
+                      flask
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      twilio
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      chat-bot
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      whatsapp
                     </span>
                   </div>
                 </div>
