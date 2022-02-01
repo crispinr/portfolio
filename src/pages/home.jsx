@@ -307,20 +307,20 @@ export default function home() {
               <div className="d-flex justify-content-around align-items-center">
                 <a
                   href="https://discordapp.com/channels/@me/crispin#7007/"
-                  className="btn social-icon rounded-circle"
+                  className="btn social-icon rounded-circle me-2"
                 >
                   <SiDiscord className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle">
+                <a href="/" className="btn social-icon rounded-circle me-2">
                   <SiWhatsapp className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle">
+                <a href="/" className="btn social-icon rounded-circle me-2">
                   <SiGithub className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle">
+                <a href="/" className="btn social-icon rounded-circle me-2">
                   <SiTwitter className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle">
+                <a href="/" className="btn social-icon rounded-circle me-2">
                   <SiInstagram className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
