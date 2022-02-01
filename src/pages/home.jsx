@@ -141,6 +141,96 @@ export default function home() {
           </div>
         </div>
       </section>
+      <section
+        id="projects"
+        className="d-flex justify-content-center align-items-center"
+      >
+        <div className="w-75">
+          <h3 className="cyan-txt my-5 text-center">Projects</h3>
+          <div className="d-flex justify-content-around align-items-center">
+            <div className=" d-flex flex-column justify-content-center align-items-center">
+              <div className="card proj-card p-3">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <h5 class="card-title align-self-start">
+                    pattarai-website-v2
+                  </h5>
+                  <p class="card-text mt-4">
+                    The official v2 website of PATTARAI - a tech community based
+                    in Chennai.
+                  </p>
+                  <div className="align-self-end">
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="card proj-card p-3 mt-5">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <h5 class="card-title align-self-start">
+                    pattarai-website-v2
+                  </h5>
+                  <p class="card-text mt-4">
+                    The official v2 website of PATTARAI - a tech community based
+                    in Chennai.
+                  </p>
+                  <div className="align-self-end">
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" d-flex flex-column justify-content-center align-items-center">
+              <div className="card proj-card p-3">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <h5 class="card-title align-self-start">
+                    pattarai-website-v2
+                  </h5>
+                  <p class="card-text mt-4">
+                    The official v2 website of PATTARAI - a tech community based
+                    in Chennai.
+                  </p>
+                  <div className="align-self-end">
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="card proj-card p-3 mt-5">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <h5 class="card-title align-self-start">
+                    pattarai-website-v2
+                  </h5>
+                  <p class="card-text mt-4">
+                    The official v2 website of PATTARAI - a tech community based
+                    in Chennai.
+                  </p>
+                  <div className="align-self-end">
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                    <span className="badge cyan-bg rounded-pill black-txt me-2">
+                      ReactJS
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="vh-100">cool</div>
       <div className="vh-100">cool</div>
       <div className="vh-100">cool</div>
