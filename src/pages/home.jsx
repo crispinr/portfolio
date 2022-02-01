@@ -144,9 +144,7 @@ export default function home() {
             </div>
           </div>
           <div>
-            <h3 className="cyan-txt text-center my-5 ms-md-0 custom-ms-6">
-              Experience
-            </h3>
+            <h3 className="cyan-txt text-center my-5">Experience</h3>
             <div className="d-flex flex-column justify-content-center align-items-start">
               <h3 className="cyan-txt">
                 &#9679;
