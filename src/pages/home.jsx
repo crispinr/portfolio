@@ -292,9 +292,9 @@ export default function home() {
       >
         <div className="w-50">
           <h3 className="cyan-txt text-center">Contact</h3>
-          <div className="d-flex justify-content-around align-items-center mt-5">
+          <div className="d-flex flex-md-row flex-column justify-content-around align-items-center mt-5">
             <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
-            <div className="w-50 d-flex flex-column text-center">
+            <div className="col-md-6 d-flex flex-column text-center mt-5">
               <h3 className="lblue-txt">I'd love to hear from you!</h3>
               <p className="mt-5">
                 Got a project you would like me to work on? Or how about just a
