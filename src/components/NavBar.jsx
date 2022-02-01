@@ -7,8 +7,8 @@ export default function NavBar() {
         id="navBar"
         className="d-flex justify-content-center fixed-top align-items-center"
       >
-        <section className="w-75 shadow-lg d-flex justify-content-around align-items-center custom-nav">
-          <div className="d-flex justify-content-between align-items-center">
+        <section className="w-75 d-flex justify-content-around align-items-center custom-nav">
+          <div className="d-none d-md-flex justify-content-between align-items-center">
             <a href="#about" className="text-decoration-none cyan-txt">
               <h6>About</h6>
             </a>
@@ -21,7 +21,7 @@ export default function NavBar() {
               <h3>Crispin R</h3>
             </a>
           </div>
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="d-none d-md-flex justify-content-between align-items-center">
             <a href="#contact" className="text-decoration-none cyan-txt">
               <h6 className="me-5">Contact</h6>
             </a>
