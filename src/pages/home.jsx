@@ -109,10 +109,10 @@ export default function home() {
         id="experience"
         className="d-flex justify-content-center align-items-center mt-5"
       >
-        <div className="w-75 d-flex justify-content-around align-items-start">
-          <div className="d-flex flex-column justify-content-evenly align-items-start">
-            <div className="d-flex flex-column justify-content-center align-items-start">
-              <h3 className="cyan-txt align-self-center my-5">Education</h3>
+        <div className="w-75 d-flex flex-md-row flex-column justify-content-around align-items-start">
+          <div>
+            <h3 className="cyan-txt text-center my-5">Education</h3>
+            <div className="d-flex flex-column justify-content-evenly align-items-start">
               <h3 className="cyan-txt">
                 &#9679;
                 <span className="ms-2 h5 fw-bold">
@@ -127,31 +127,33 @@ export default function home() {
                   Loyola ICAM College of Engineering and Technology, Chennai
                 </p>
               </div>
-            </div>
-            <div className="d-flex flex-column justify-content-center align-items-start">
-              <h3 className="cyan-txt">
-                &#9679;
-                <span className="ms-2 h5 fw-bold">HSC &amp; SSLC</span>
-              </h3>
-              <div className="timeline p-3 ms-2">
-                <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold">
-                  2011 - 2020
-                </span>
-                <p className="mt-3">
-                  St. Mary's Anglo Indian Hr. Sec. School, Chennai
-                </p>
+              <div className="d-flex flex-column justify-content-center align-items-start">
+                <h3 className="cyan-txt">
+                  &#9679;
+                  <span className="ms-2 h5 fw-bold">HSC &amp; SSLC</span>
+                </h3>
+                <div className="timeline p-3 ms-2">
+                  <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold">
+                    2011 - 2020
+                  </span>
+                  <p className="mt-3">
+                    St. Mary's Anglo Indian Hr. Sec. School, Chennai
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="d-flex flex-column justify-content-evenly align-items-start">
+          <div>
+            <h3 className="cyan-txt text-center my-5 ms-md-0 custom-ms-6">
+              Experience
+            </h3>
             <div className="d-flex flex-column justify-content-center align-items-start">
-              <h3 className="cyan-txt align-self-center my-5">Experience</h3>
               <h3 className="cyan-txt">
                 &#9679;
                 <span className="ms-2 h5 fw-bold">PATTARAI</span>
               </h3>
               <div className="timeline p-3 ms-2">
-                <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold">
+                <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold text-left">
                   2021 - Present
                 </span>
                 <p className="mt-3">Assistant Vice President of Engineering</p>
