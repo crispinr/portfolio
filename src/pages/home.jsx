@@ -35,7 +35,7 @@ export default function home() {
         <h3 className="cyan-txt my-5">About Me</h3>
         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <img src={bonfire} alt="bonfire" className="img-card" />
-          <p className="ms-md-5">
+          <p className="ms-md-5 mt-md-0 mt-5">
             A sophomore who loves to develop cool stuff and likes facts, art
             &amp; crafts, space, music, and &lt;code /&gt;. I'm currently
             pursuing my Bachelor of Technology in Information Technology at
