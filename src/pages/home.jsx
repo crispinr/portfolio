@@ -285,6 +285,12 @@ export default function home() {
           </div>
         </div>
       </section>
+      <section
+        id="footer"
+        className="d-flex justify-content-center align-items-center my-5"
+      >
+        <hr className="w-50 lblue-bg" />
+      </section>
     </>
   );
 }
