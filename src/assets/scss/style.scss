@@ -8,6 +8,7 @@ $hero-bg: #0f1724;
 $cyan-txt: #04c4c4;
 $white-txt: #ddebff;
 $lblue-txt: #92abcf;
+$card-bg: #101b2c;
 
 body {
   background-color: $bg;
@@ -70,4 +71,20 @@ a:hover {
 
 .white-txt {
   color: $white-txt;
+}
+
+.proj-card {
+  max-width: 23rem;
+  height: max-content;
+  min-height: 15rem;
+  border-radius: 40px;
+  background-color: $card-bg;
+}
+
+.cyan-bg {
+  background-color: $cyan-txt;
+}
+
+.black-txt {
+  color: $hero-bg;
 }
