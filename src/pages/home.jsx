@@ -112,7 +112,7 @@ export default function home() {
         <div className="w-75 d-flex justify-content-around align-items-start">
           <div className="d-flex flex-column justify-content-evenly align-items-start">
             <div className="d-flex flex-column justify-content-center align-items-start">
-              <h3 className="cyan-txt align-self-center mb-5">Education</h3>
+              <h3 className="cyan-txt align-self-center my-5">Education</h3>
               <h3 className="cyan-txt">
                 &#9679;
                 <span className="ms-2 h5 fw-bold">
@@ -131,23 +131,21 @@ export default function home() {
             <div className="d-flex flex-column justify-content-center align-items-start">
               <h3 className="cyan-txt">
                 &#9679;
-                <span className="ms-2 h5 fw-bold">
-                  B. TECH INFORMATION TECHNOLOGY
-                </span>
+                <span className="ms-2 h5 fw-bold">HSC &amp; SSLC</span>
               </h3>
               <div className="timeline p-3 ms-2">
                 <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold">
-                  September 2020 - Present
+                  2011 - 2020
                 </span>
                 <p className="mt-3">
-                  Loyola ICAM College of Engineering and Technology, Chennai
+                  St. Mary's Anglo Indian Hr. Sec. School, Chennai
                 </p>
               </div>
             </div>
           </div>
           <div className="d-flex flex-column justify-content-evenly align-items-start">
             <div className="d-flex flex-column justify-content-center align-items-start">
-              <h3 className="cyan-txt align-self-center mb-5">Experience</h3>
+              <h3 className="cyan-txt align-self-center my-5">Experience</h3>
               <h3 className="cyan-txt">
                 &#9679;
                 <span className="ms-2 h5 fw-bold">PATTARAI</span>
