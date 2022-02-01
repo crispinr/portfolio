@@ -30,12 +30,12 @@ export default function home() {
       </section>
       <section
         id="about"
-        className="container w-50 d-flex flex-column justify-content-center align-items-center"
+        className="container col-md-6 mx-auto text-center d-flex flex-column justify-content-center align-items-center"
       >
-        <h3 className="cyan-txt mt-5">About Me</h3>
-        <div className="d-flex justify-content-center align-items-center">
+        <h3 className="cyan-txt my-5">About Me</h3>
+        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <img src={bonfire} alt="bonfire" className="img-card" />
-          <p className="ms-5">
+          <p className="ms-md-5">
             A sophomore who loves to develop cool stuff and likes facts, art
             &amp; crafts, space, music, and &lt;code /&gt;. I'm currently
             pursuing my Bachelor of Technology in Information Technology at
@@ -43,29 +43,10 @@ export default function home() {
           </p>
         </div>
       </section>
-      <section className="d-flex flex-column justify-content-center align-items-center">
+      <section className="container d-flex flex-column justify-content-center align-items-center">
         <h3 className="cyan-txt mt-5">Languages</h3>
-        <div className="w-25 mt-4 d-flex justify-content-evenly align-items-center">
-          <img
-            src="https://img.shields.io/badge/-Python-101B2C?&logo=Python"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-Python-101B2C?&logo=Python"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-Python-101B2C?&logo=Python"
-            alt="python"
-            className="img-shield"
-          />
-          <img
-            src="https://img.shields.io/badge/-Python-101B2C?&logo=Python"
-            alt="python"
-            className="img-shield"
-          />
+        <div className="mt-4">
+          <span></span>
         </div>
         <h3 className="cyan-txt mt-5">Technologies</h3>
         <div className="w-25 mt-4 d-flex justify-content-evenly align-items-center">
