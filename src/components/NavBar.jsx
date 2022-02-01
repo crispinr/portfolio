@@ -1,4 +1,8 @@
 import React from "react";
+import { AiOutlineInfoCircle } from "react-icons/ai";
+import { HiOutlineLightBulb } from "react-icons/hi";
+import { MdOutlineContacts } from "react-icons/md";
+import { BsNewspaper } from "react-icons/bs";
 
 export default function NavBar() {
   return (
@@ -7,7 +11,7 @@ export default function NavBar() {
         id="navBar"
         className="d-flex justify-content-center fixed-top align-items-center"
       >
-        <section className="w-75 d-flex justify-content-around align-items-center custom-nav">
+        <div className="w-75 d-flex justify-content-around align-items-center custom-nav-md">
           <div className="d-none d-md-flex justify-content-between align-items-center">
             <a href="#about" className="text-decoration-none cyan-txt">
               <h6>About</h6>
@@ -29,7 +33,26 @@ export default function NavBar() {
               <h6>Resume</h6>
             </a>
           </div>
-        </section>
+        </div>
+      </section>
+      <section
+        id="navBarMobile"
+        className="d-md-none d-flex justify-content-center fixed-bottom align-items-center"
+      >
+        <div className="w-75 d-flex justify-content-around align-items-center custom-nav">
+          <a href="#about" className="h6 text-decoration-none cyan-txt">
+            <AiOutlineInfoCircle />
+          </a>
+          <a href="#projects" className="h6 text-decoration-none cyan-txt">
+            <HiOutlineLightBulb />
+          </a>
+          <a href="#contact" className="h6 text-decoration-none cyan-txt">
+            <MdOutlineContacts />
+          </a>
+          <a href="#resume" className="h6 text-decoration-none cyan-txt">
+            <BsNewspaper />
+          </a>
+        </div>
       </section>
     </>
   );
