@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import Bonfire from "../assets/images/Bonfire.jpg";
+import bonfire from "../assets/images/Bonfire.jpg";
+import fireIcon from "../assets/images/Fire_Icon.svg";
 
 export default function home() {
   return (
@@ -27,7 +28,7 @@ export default function home() {
       >
         <h3 className="cyan-txt mt-5">About Me</h3>
         <div className="d-flex justify-content-center align-items-center">
-          <img src={Bonfire} alt="bonfire" className="img-card" />
+          <img src={bonfire} alt="bonfire" className="img-card" />
           <p className="ms-5">
             A sophomore who loves to develop cool stuff and likes facts, art
             &amp; crafts, space, music, and &lt;code /&gt;. I'm currently
@@ -228,6 +229,27 @@ export default function home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="contact"
+        className="d-flex justify-content-center align-items-center mt-5"
+      >
+        <div className="w-50">
+          <h3 className="cyan-txt text-center">Contact</h3>
+          <div className="d-flex justify-content-around align-items-center mt-5">
+            <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
+            <div className="w-50 d-flex flex-column text-center">
+              <h3>I'd love to hear from you!</h3>
+              <p className="mt-5">
+                Got a project you would like me to work on? Or how about just a
+                friendly chat?
+              </p>
+            </div>
+          </div>
+          <div className="social-icons">
+            <h3 className="btn rounded-circle lblue-bg">a</h3>
           </div>
         </div>
       </section>
