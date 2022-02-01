@@ -164,10 +164,10 @@ export default function home() {
         id="projects"
         className="d-flex justify-content-center align-items-center"
       >
-        <div className="w-75">
+        <div className="w-75 container">
           <h3 className="cyan-txt my-5 text-center">Projects</h3>
-          <div className="d-flex justify-content-around align-items-center">
-            <div className=" d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-md-row flex-column justify-content-around align-items-center">
+            <div className=" d-flex flex-column justify-content-center align-items-center me-0 me-md-5">
               <div className="card proj-card p-3">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <h5 class="card-title align-self-start lblue-txt fw-bold">
@@ -193,7 +193,7 @@ export default function home() {
                   </div>
                 </div>
               </div>
-              <div className="card proj-card p-3 mt-5">
+              <div className="card proj-card p-3 mt-5 mb-md-0 mb-5">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <h5 class="card-title align-self-start lblue-txt fw-bold">
                     project-helix
