@@ -295,7 +295,7 @@ export default function home() {
           <div className="d-flex justify-content-around align-items-center mt-5">
             <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
             <div className="w-50 d-flex flex-column text-center">
-              <h3>I'd love to hear from you!</h3>
+              <h3 className="lblue-txt">I'd love to hear from you!</h3>
               <p className="mt-5">
                 Got a project you would like me to work on? Or how about just a
                 friendly chat?
@@ -309,22 +309,22 @@ export default function home() {
                   href="https://discordapp.com/channels/@me/crispin#7007/"
                   className="btn social-icon rounded-circle"
                 >
-                  <SiDiscord className="cyan-txt" />
+                  <SiDiscord className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
-                  <SiWhatsapp className="cyan-txt" />
+                  <SiWhatsapp className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
-                  <SiGithub className="cyan-txt" />
+                  <SiGithub className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
-                  <SiTwitter className="cyan-txt" />
+                  <SiTwitter className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
-                  <SiInstagram className="cyan-txt" />
+                  <SiInstagram className="lblue-txt" />
                 </a>
                 <a href="/" className="btn social-icon rounded-circle">
-                  <SiFacebook className="cyan-txt" />
+                  <SiFacebook className="lblue-txt" />
                 </a>
               </div>
             </div>
