@@ -8,7 +8,7 @@ import {
   SiGithub,
   SiTwitter,
   SiInstagram,
-  SiFacebook,
+  SiLinkedin,
 } from "react-icons/si";
 import {
   DiPython,
@@ -311,20 +311,35 @@ export default function home() {
                 >
                   <SiDiscord className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle me-2">
+                <a
+                  href="https://wa.me/+919789933204"
+                  className="btn social-icon rounded-circle me-2"
+                >
                   <SiWhatsapp className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle me-2">
+                <a
+                  href="https://github.com/crispinr"
+                  className="btn social-icon rounded-circle me-2"
+                >
                   <SiGithub className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle me-2">
+                <a
+                  href="https://twitter.com/crispinr_"
+                  className="btn social-icon rounded-circle me-2"
+                >
                   <SiTwitter className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle me-2">
+                <a
+                  href="https://www.instagram.com/_crispinr_"
+                  className="btn social-icon rounded-circle me-2"
+                >
                   <SiInstagram className="lblue-txt" />
                 </a>
-                <a href="/" className="btn social-icon rounded-circle">
-                  <SiFacebook className="lblue-txt" />
+                <a
+                  href="https://www.linkedin.com/in/crispinr"
+                  className="btn social-icon rounded-circle"
+                >
+                  <SiLinkedin className="lblue-txt" />
                 </a>
               </div>
             </div>
