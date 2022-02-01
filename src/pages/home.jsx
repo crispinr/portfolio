@@ -2,6 +2,14 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import bonfire from "../assets/images/Bonfire.jpg";
 import fireIcon from "../assets/images/Fire_Icon.svg";
+import {
+  SiDiscord,
+  SiWhatsapp,
+  SiGithub,
+  SiTwitter,
+  SiInstagram,
+  SiFacebook,
+} from "react-icons/si";
 
 export default function home() {
   return (
@@ -248,17 +256,35 @@ export default function home() {
               </p>
             </div>
           </div>
-          <div className="social-icons">
-            <h3 className="btn rounded-circle lblue-bg">a</h3>
+          <div className="d-flex justify-content-center align-items-center">
+            <div className="w-50 mt-5">
+              <div className="d-flex justify-content-around align-items-center">
+                <a
+                  href="https://discordapp.com/channels/@me/crispin#7007/"
+                  className="btn social-icon rounded-circle"
+                >
+                  <SiDiscord className="cyan-txt" />
+                </a>
+                <a href="/" className="btn social-icon rounded-circle">
+                  <SiWhatsapp className="cyan-txt" />
+                </a>
+                <a href="/" className="btn social-icon rounded-circle">
+                  <SiGithub className="cyan-txt" />
+                </a>
+                <a href="/" className="btn social-icon rounded-circle">
+                  <SiTwitter className="cyan-txt" />
+                </a>
+                <a href="/" className="btn social-icon rounded-circle">
+                  <SiInstagram className="cyan-txt" />
+                </a>
+                <a href="/" className="btn social-icon rounded-circle">
+                  <SiFacebook className="cyan-txt" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <div className="vh-100">cool</div>
-      <div className="vh-100">cool</div>
-      <div className="vh-100">cool</div>
-      <div className="vh-100">cool</div>
-      <div className="vh-100">cool</div>
-      <div>cool</div>
     </>
   );
 }
