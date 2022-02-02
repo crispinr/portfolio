@@ -15,6 +15,8 @@ import {
   SiTwitter,
   SiInstagram,
   SiLinkedin,
+} from "react-icons/si";
+import {
   DiPython,
   DiJsBadge,
   DiHtml5,
@@ -26,9 +28,8 @@ import {
   DiHeroku,
   DiNpm,
   DiReact,
-  SiAdobeillustrator,
-  SiAdobexd,
-} from "react-icons/all";
+} from "react-icons/di";
+import { SiAdobeillustrator, SiAdobexd } from "react-icons/si";
 
 export default function Home() {
   // Get current year
