@@ -1,6 +1,8 @@
+// Asset imports
 @import "~bootstrap/scss/bootstrap";
 @import "../fonts/fonts.scss";
 
+// Variable initializations
 $bg: #121212;
 $hero-bg: #0f1724;
 $cyan-txt: #04c4c4;
@@ -8,6 +10,7 @@ $white-txt: #ddebff;
 $lblue-txt: #92abcf;
 $card-bg: #101b2c;
 
+// Essential tag styles
 body {
   background-color: $bg;
   font-family: "Comfortaa";
@@ -27,10 +30,12 @@ a:hover {
   color: inherit;
 }
 
+// Id styles
 #hero {
   background-color: $hero-bg;
 }
 
+// Class styles
 .custom-nav-md {
   background-color: $hero-bg;
   height: 4rem;
