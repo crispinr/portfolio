@@ -31,11 +31,15 @@ import {
 } from "react-icons/all";
 
 export default function Home() {
+  // Get current year
   const date = new Date();
   const currentYear = date.getFullYear();
+
   return (
     <>
+      {/* NavBar component */}
       <NavBar />
+      {/* Hero section */}
       <section id="hero">
         <div className="container col-md-6 mx-auto text-center d-flex flex-column justify-content-center align-items-center vh-100">
           <div className="d-flex flex-column justify-content-center align-items-center h-50 w-100 mt-md-5 mt-0">
@@ -49,6 +53,7 @@ export default function Home() {
           <hr className="w-25 lblue-bg" />
         </div>
       </section>
+      {/* About section */}
       <section
         id="about"
         className="container col-md-6 mx-auto text-center d-flex flex-column justify-content-center align-items-center"
@@ -64,6 +69,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+      {/* Tech section */}
       <section className="container d-flex flex-column justify-content-center align-items-center">
         <h3 className="cyan-txt mt-5">Languages</h3>
         <div className="mt-4 text-center">
@@ -111,6 +117,7 @@ export default function Home() {
           </h6>
         </div>
       </section>
+      {/* Experience section */}
       <section
         id="experience"
         className="d-flex justify-content-center align-items-center mt-5"
@@ -166,6 +173,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Projects section */}
       <section
         id="projects"
         className="d-flex justify-content-center align-items-center"
@@ -292,6 +300,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Contact section */}
       <section
         id="contact"
         className="container col-md-6 d-flex flex-column justify-content-center align-items-center mt-5"
@@ -350,6 +359,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Footer section */}
       <section
         id="footer"
         className="d-flex flex-column justify-content-center align-items-center my-5"
