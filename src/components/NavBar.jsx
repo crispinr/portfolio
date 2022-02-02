@@ -3,6 +3,7 @@ import { AiOutlineInfoCircle } from "react-icons/ai";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { MdOutlineContacts } from "react-icons/md";
 import { BsNewspaper } from "react-icons/bs";
+import Resume from "../assets/files/Resume.pdf";
 
 export default function NavBar() {
   return (
@@ -29,7 +30,12 @@ export default function NavBar() {
             <a href="#contact" className="text-decoration-none cyan-txt">
               <h6 className="me-5">Contact</h6>
             </a>
-            <a href="#resume" className="text-decoration-none cyan-txt">
+            <a
+              href={Resume}
+              className="text-decoration-none cyan-txt"
+              target="_blank"
+              rel="noreferrer"
+            >
               <h6>Resume</h6>
             </a>
           </div>
@@ -49,7 +55,12 @@ export default function NavBar() {
           <a href="#contact" className="h6 text-decoration-none cyan-txt">
             <MdOutlineContacts />
           </a>
-          <a href="#resume" className="h6 text-decoration-none cyan-txt">
+          <a
+            href={Resume}
+            className="h6 text-decoration-none cyan-txt"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsNewspaper />
           </a>
         </div>
