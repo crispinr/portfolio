@@ -27,6 +27,8 @@ import {
 import { SiAdobeillustrator, SiAdobexd } from "react-icons/si";
 
 export default function Home() {
+  const date = new Date();
+  const currentYear = date.getFullYear();
   return (
     <>
       <NavBar />
@@ -348,9 +350,10 @@ export default function Home() {
       </section>
       <section
         id="footer"
-        className="d-flex justify-content-center align-items-center my-5"
+        className="d-flex flex-column justify-content-center align-items-center my-5"
       >
         <hr className="w-50 lblue-bg" />
+        <h6 className="mb-5">© {currentYear} Crispin R.</h6>
       </section>
     </>
   );
