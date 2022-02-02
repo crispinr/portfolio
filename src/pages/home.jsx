@@ -26,7 +26,7 @@ import {
 
 import { SiAdobeillustrator, SiAdobexd } from "react-icons/si";
 
-export default function home() {
+export default function Home() {
   return (
     <>
       <NavBar />
