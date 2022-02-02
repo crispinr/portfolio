@@ -30,6 +30,17 @@ a:hover {
   color: inherit;
 }
 
+// Custom scrollbar styles
+::-webkit-scrollbar {
+  background-color: $hero-bg;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $cyan-txt;
+  border-radius: 20px;
+}
+
 // Id styles
 #hero {
   background-color: $hero-bg;
