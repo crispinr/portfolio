@@ -1,9 +1,15 @@
 import React from "react";
-import { AiOutlineInfoCircle } from "react-icons/ai";
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { MdOutlineContacts } from "react-icons/md";
-import { BsNewspaper } from "react-icons/bs";
+
+// Asset imports
 import Resume from "../assets/files/Resume.pdf";
+
+// Icon imports
+import {
+  BsNewspaper,
+  AiOutlineInfoCircle,
+  HiOutlineLightBulb,
+  MdOutlineContacts,
+} from "react-icons/all";
 
 export default function NavBar() {
   return (

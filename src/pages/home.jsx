@@ -1,7 +1,13 @@
 import React from "react";
+
+// Component imports
 import NavBar from "../components/NavBar";
+
+// Asset imports
 import bonfire from "../assets/images/Bonfire.jpg";
 import fireIcon from "../assets/images/Fire_Icon.svg";
+
+// Icon imports
 import {
   SiDiscord,
   SiWhatsapp,
@@ -9,8 +15,6 @@ import {
   SiTwitter,
   SiInstagram,
   SiLinkedin,
-} from "react-icons/si";
-import {
   DiPython,
   DiJsBadge,
   DiHtml5,
@@ -22,9 +26,9 @@ import {
   DiHeroku,
   DiNpm,
   DiReact,
-} from "react-icons/di";
-
-import { SiAdobeillustrator, SiAdobexd } from "react-icons/si";
+  SiAdobeillustrator,
+  SiAdobexd,
+} from "react-icons/all";
 
 export default function Home() {
   const date = new Date();
