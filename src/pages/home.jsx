@@ -290,60 +290,58 @@ export default function Home() {
       </section>
       <section
         id="contact"
-        className="d-flex justify-content-center align-items-center mt-5"
+        className="container col-md-6 d-flex flex-column justify-content-center align-items-center mt-5"
       >
-        <div className="w-50">
-          <h3 className="cyan-txt text-center">Contact</h3>
-          <div className="d-flex flex-md-row flex-column justify-content-around align-items-center mt-5">
-            <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
-            <div className="col-md-6 d-flex flex-column text-center mt-5">
-              <h3 className="lblue-txt">I'd love to hear from you!</h3>
-              <p className="mt-5">
-                Got a project you would like me to work on? Or how about just a
-                friendly chat?
-              </p>
-            </div>
+        <h3 className="cyan-txt text-center">Contact</h3>
+        <div className="d-flex flex-md-row flex-column justify-content-around align-items-center mt-4">
+          <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
+          <div className="col-md-6 d-flex flex-column text-center mt-5">
+            <h3 className="lblue-txt">I'd love to hear from you!</h3>
+            <p className="mt-5">
+              Got a project you would like me to work on? Or how about just a
+              friendly chat?
+            </p>
           </div>
-          <div className="d-flex justify-content-center align-items-center">
-            <div className="w-50 mt-5">
-              <div className="d-flex justify-content-around align-items-center">
-                <a
-                  href="https://discordapp.com/channels/@me/crispin#7007/"
-                  className="btn social-icon rounded-circle me-2"
-                >
-                  <SiDiscord className="lblue-txt" />
-                </a>
-                <a
-                  href="https://wa.me/+919789933204"
-                  className="btn social-icon rounded-circle me-2"
-                >
-                  <SiWhatsapp className="lblue-txt" />
-                </a>
-                <a
-                  href="https://github.com/crispinr"
-                  className="btn social-icon rounded-circle me-2"
-                >
-                  <SiGithub className="lblue-txt" />
-                </a>
-                <a
-                  href="https://twitter.com/crispinr_"
-                  className="btn social-icon rounded-circle me-2"
-                >
-                  <SiTwitter className="lblue-txt" />
-                </a>
-                <a
-                  href="https://www.instagram.com/_crispinr_"
-                  className="btn social-icon rounded-circle me-2"
-                >
-                  <SiInstagram className="lblue-txt" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/crispinr"
-                  className="btn social-icon rounded-circle"
-                >
-                  <SiLinkedin className="lblue-txt" />
-                </a>
-              </div>
+        </div>
+        <div className="d-flex justify-content-center align-items-center">
+          <div className="mt-5">
+            <div className="">
+              <a
+                href="https://discordapp.com/channels/@me/crispin#7007/"
+                className="btn social-icon rounded-circle me-2"
+              >
+                <SiDiscord className="lblue-txt" />
+              </a>
+              <a
+                href="https://wa.me/+919789933204"
+                className="btn social-icon rounded-circle me-2"
+              >
+                <SiWhatsapp className="lblue-txt" />
+              </a>
+              <a
+                href="https://github.com/crispinr"
+                className="btn social-icon rounded-circle me-2"
+              >
+                <SiGithub className="lblue-txt" />
+              </a>
+              <a
+                href="https://twitter.com/crispinr_"
+                className="btn social-icon rounded-circle me-2"
+              >
+                <SiTwitter className="lblue-txt" />
+              </a>
+              <a
+                href="https://www.instagram.com/_crispinr_"
+                className="btn social-icon rounded-circle me-2"
+              >
+                <SiInstagram className="lblue-txt" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/crispinr"
+                className="btn social-icon rounded-circle"
+              >
+                <SiLinkedin className="lblue-txt" />
+              </a>
             </div>
           </div>
         </div>
