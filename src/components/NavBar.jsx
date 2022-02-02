@@ -47,6 +47,7 @@ export default function NavBar() {
           </div>
         </div>
       </section>
+      {/* Additional navbar for mobile view */}
       <section
         id="navBarMobile"
         className="d-md-none d-flex justify-content-center fixed-bottom align-items-center"
