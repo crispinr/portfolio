@@ -166,7 +166,7 @@ export default function Home() {
               </h3>
               <div className="timeline p-3 ms-2">
                 <span className="h6 py-1 px-2 btn-lblue rounded-3 white-txt fw-bold text-left">
-                  2021 - Present
+                  December 2021 - Present
                 </span>
                 <p className="mt-3">Assistant Vice President of Engineering</p>
               </div>
