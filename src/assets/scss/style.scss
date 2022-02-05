@@ -31,6 +31,12 @@ a:hover {
   color: inherit;
 }
 
+// Text selection styles
+*::selection {
+  color: $hero-bg;
+  background: $cyan-txt;
+}
+
 // Custom scrollbar styles
 ::-webkit-scrollbar {
   background-color: $hero-bg;
