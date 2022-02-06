@@ -19,20 +19,20 @@ export default function NavBar() {
         <div className="w-75 d-flex justify-content-around align-items-center custom-nav-md">
           <div className="d-none d-md-flex justify-content-between align-items-center">
             <a href="#about" className="text-decoration-none cyan-txt">
-              <h6>About</h6>
+              <h6 className="fw-bold">About</h6>
             </a>
             <a href="#projects" className="text-decoration-none cyan-txt">
-              <h6 className="ms-5">Projects</h6>
+              <h6 className="ms-5 fw-bold">Projects</h6>
             </a>
           </div>
           <div className="d-flex justify-content-between align-items-center">
             <a href="#hero" className="text-decoration-none cyan-txt">
-              <h3>Crispin R</h3>
+              <h3 className="fw-bold">Crispin R</h3>
             </a>
           </div>
           <div className="d-none d-md-flex justify-content-between align-items-center">
             <a href="#contact" className="text-decoration-none cyan-txt">
-              <h6 className="me-5">Contact</h6>
+              <h6 className="me-5 fw-bold">Contact</h6>
             </a>
             <a
               href={Resume}
@@ -40,7 +40,7 @@ export default function NavBar() {
               target="_blank"
               rel="noreferrer"
             >
-              <h6>Resume</h6>
+              <h6 className="fw-bold">Resume</h6>
             </a>
           </div>
         </div>

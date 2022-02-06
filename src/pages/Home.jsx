@@ -59,7 +59,7 @@ export default function Home() {
         id="about"
         className="container col-md-6 mx-auto text-center d-flex flex-column justify-content-center align-items-center"
       >
-        <h3 className="cyan-txt my-5">About Me</h3>
+        <h3 className="cyan-txt my-5 fw-bold">About Me</h3>
         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <img src={bonfire} alt="bonfire" className="img-card" />
           <p className="ms-md-5 mt-md-0 mt-5">
@@ -72,7 +72,7 @@ export default function Home() {
       </section>
       {/* Tech section */}
       <section className="container d-flex flex-column justify-content-center align-items-center">
-        <h3 className="cyan-txt mt-5">Languages</h3>
+        <h3 className="cyan-txt mt-5 fw-bold">Languages</h3>
         <div className="mt-4 text-center">
           <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
             <DiPython color="" size="20px" /> Python
@@ -90,7 +90,7 @@ export default function Home() {
             <DiJava color="" size="20px" /> Java
           </h6>
         </div>
-        <h3 className="cyan-txt mt-5">Technologies</h3>
+        <h3 className="cyan-txt mt-5 fw-bold">Technologies</h3>
         <div className="mt-4 text-center">
           <h6 className="badge rounded-pill hero-br white-txt py-1 px-2 me-2">
             <DiBootstrap color="" size="20px" /> Bootstrap
@@ -125,7 +125,7 @@ export default function Home() {
       >
         <div className="w-75 d-flex flex-md-row flex-column justify-content-around align-items-start">
           <div>
-            <h3 className="cyan-txt text-center my-5">Education</h3>
+            <h3 className="cyan-txt text-center my-5 fw-bold">Education</h3>
             <div className="d-flex flex-column justify-content-evenly align-items-start">
               <h3 className="cyan-txt">
                 &#9679;
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h3 className="cyan-txt text-center my-5">Experience</h3>
+            <h3 className="cyan-txt text-center my-5 fw-bold">Experience</h3>
             <div className="d-flex flex-column justify-content-center align-items-start">
               <h3 className="cyan-txt">
                 &#9679;
@@ -180,7 +180,7 @@ export default function Home() {
         className="d-flex justify-content-center align-items-center"
       >
         <div className="w-75 container">
-          <h3 className="cyan-txt my-5 text-center">Projects</h3>
+          <h3 className="cyan-txt my-5 text-center fw-bold">Projects</h3>
           <div className="d-flex flex-md-row flex-column justify-content-around align-items-center">
             <div className=" d-flex flex-column justify-content-center align-items-center me-0 me-md-5">
               <div className="card proj-card p-3">
@@ -306,7 +306,7 @@ export default function Home() {
         id="contact"
         className="container col-md-6 d-flex flex-column justify-content-center align-items-center mt-5"
       >
-        <h3 className="cyan-txt text-center">Contact</h3>
+        <h3 className="cyan-txt text-center fw-bold">Contact</h3>
         <div className="d-flex flex-md-row flex-column justify-content-around align-items-center mt-4">
           <img src={fireIcon} alt="fireIcon" className="custom-fireicon" />
           <div className="col-md-6 d-flex flex-column text-center mt-5">
